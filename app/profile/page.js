@@ -34,7 +34,7 @@ export default function Profile() {
           </div>
 
           <p>
-            Welcome, <b>{session.user.name}!</b>
+            Welcome, <b>{session.user.name}   !!</b>
           </p>
 
           <p>Email: {session.user.email}</p>
