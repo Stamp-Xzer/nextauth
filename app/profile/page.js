@@ -22,7 +22,7 @@ export default function Profile() {
   return (
     status === "authenticated" &&
     session.user && (
-      <div className="flex h-screen items-center justify-center">
+      <div className="flex h-screen items-center justify-center text-l">
         <div className="bg-white p-6 rounded-md shadow-md">
           {/* ทำการเพิ่มส่วนรูปภาพเข้ามา */}
 
